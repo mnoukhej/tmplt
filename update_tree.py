@@ -61,7 +61,7 @@ def update_commands(content: str, repo_name: str) -> str:
     # Update git clone command
     content = re.sub(
         r"git clone https://github.com/.+?/.+?\.git",
-        f"git clone https://github.com/CodeX404lab/{repo_name}.git",
+        f"git clone https://github.com/mnoukhej/{repo_name}.git",
         content,
     )
 
